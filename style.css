@@ -1,0 +1,68 @@
+body {
+    background-color: #141414;
+}
+
+
+h1 {
+    font-family: arial;
+    font-size: 48pt;
+    text-align: center;
+    margin-top: 13%;
+    color: white;
+}
+
+div.fotos {
+    margin-left: 10px;
+    display: inline-block;
+    justify-content: center;
+}
+
+h3 {
+    color: rgb(95, 93, 93);
+    font-family: Helvetica, sans-serif;
+    margin-left: 85px;
+    text-align: relative;
+    font-size: 15pt;
+    vertical-align: middle;
+}
+
+img.nicolas:hover {
+    border: 3px solid white;
+    width: 200px;
+    height: 200px;
+}
+
+figure {
+    margin-left: 360px;
+}
+
+/* Menu de gerenciamento de perfis*/
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    color: rgb(73, 71, 71);
+    position: absolute;
+    font-family: arial;
+    font-size: 20pt;
+    left: 820px;
+
+
+}
+
+nav#menu li {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid rgb(73, 71, 71);
+}
+
+nav#menu:hover ul {
+    color: white;
+}
+
+nav#menu:hover li {
+    border: 2px solid white
+}
